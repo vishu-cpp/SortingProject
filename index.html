@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sorting Visualization</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Sorting Visualization Project</h1>
+    <h5>Made by:- </h5>
+    <h5>Riya Ghaloth (10211503121)</h5>
+    <h5>Vishesh (10311503121)</h5>
+    <h5>Simriti Chaudhary (75111053121)</h5>
+    <h5>Anshul Sharma (00111507722)</h5>
+
+  </div>
+  <div class="container">
+    <div>
+      <label for="inputArray">Enter numbers (separated by commas):</label>
+      <input type="text" id="inputArray" placeholder="e.g., 5, 2, 9, 1">
+      <button onclick="applyInput()">Apply</button>
+    </div>
+    <canvas id="sortingCanvas" width="800" height="400"></canvas>
+    <div class="btn-group">
+      <button onclick="startSorting('bubbleSort')">Bubble Sort</button>
+      <button onclick="startSorting('quickSort')">Quick Sort</button>
+      <button onclick="startSorting('mergeSort')">Merge Sort</button>
+      <button onclick="startSorting('selectionSort')">Selection Sort</button>
+      <button onclick="startSorting('insertionSort')">Insertion Sort</button>
+      <button onclick="resetArray()">Reset Array</button>
+    </div>
+  </div>
+  
+  <script src="scripts.js"></script>
+</body>
+</html>
