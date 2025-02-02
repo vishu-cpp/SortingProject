@@ -50,4 +50,8 @@ body {
   canvas {
     border: 1px solid #000;
   }
-  
+
+  .time-taken {
+    margin-top: 20px;
+    font-size: 18px;
+  }
